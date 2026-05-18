@@ -5,7 +5,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # ================== CAMBIA ESTO ==================
-DISCORD_WEBHOOK = "https://discord.com/api/webhooks/TU_WEBHOOK_AQUI"  
+DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1506021878425194650/umdbfi_nHUGLhIqVmhoQX2HFf60nZrulzWqlsuDoRV6-WhQmkobKq7ShvYTtTpltdBfT"  
 # ================================================
 
 @app.route('/webhook', methods=['POST'])
